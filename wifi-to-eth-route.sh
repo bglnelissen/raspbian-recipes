@@ -12,10 +12,10 @@
 # Don't forget to change the name of network interface
 # Check them with `ifconfig`
 
-ip_address="192.168.2.1"
+ip_address="10.10.2.1"
 netmask="255.255.255.0"
-dhcp_range_start="192.168.2.2"
-dhcp_range_end="192.168.2.100"
+dhcp_range_start="10.10.2.2"
+dhcp_range_end="10.10.2.100"
 dhcp_time="12h"
 dns_server="1.1.1.1"
 eth="eth0"
