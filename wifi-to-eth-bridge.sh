@@ -22,8 +22,9 @@
 # Configure your wpa_supplicant prior to this script
 #
 
+# Check sudo ifconfig
 eth="eth0"
-wlan="wlan0"
+wlan="wg0"
 
 sudo systemctl start network-online.target &> /dev/null
 
