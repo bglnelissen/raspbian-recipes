@@ -24,7 +24,7 @@
 
 # Check sudo ifconfig
 eth="eth0"
-wlan="wg0"
+wlan="wlan0"
 
 sudo systemctl start network-online.target &> /dev/null
 
